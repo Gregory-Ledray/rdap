@@ -7,6 +7,8 @@ import (
 	"encoding/json"
 	"encoding/pem"
 	"fmt"
+	"github.com/Gregory-Ledray/rdap/bootstrap"
+	"github.com/Gregory-Ledray/rdap/bootstrap/cache"
 	"io"
 	"io/ioutil"
 	"net"
@@ -17,9 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openrdap/rdap/bootstrap"
-	"github.com/openrdap/rdap/bootstrap/cache"
-	"github.com/openrdap/rdap/sandbox"
+	"github.com/Gregory-Ledray/rdap/sandbox"
 
 	"golang.org/x/crypto/pkcs12"
 
