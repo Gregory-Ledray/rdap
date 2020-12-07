@@ -1,5 +1,0 @@
-   ["vcard",
-     [
-       ["version", {}, "text", ["ok",["ok",["nested too deep"]]]]]
-     ]
-   ]
