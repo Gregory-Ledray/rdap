@@ -7,6 +7,9 @@ https://www.openrdap.org - homepage
 
 https://www.openrdap.org/demo - live demo
 
+## Note:
+This package is from github.com/openrdap/rdap and this package exists because my code is throwing an error when downloading an http mocking library used during tests of this library. This repo differs from the main one in that it does not include the tests folder.
+
 ## Features
 * Command line RDAP client
 * Query types supported:
